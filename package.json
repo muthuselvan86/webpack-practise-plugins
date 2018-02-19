@@ -1,0 +1,36 @@
+{
+  "name": "webpack-practice",
+  "version": "1.0.0",
+  "description": "Basics setup and execution of HtmlWebpackPlugin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack --env.NODE_ENV=local"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muthuselvan86/webpack-practise-plugins.git"
+  },
+  "keywords": [],
+  "author": "Muthu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muthuselvan86/webpack-practise-plugins/issues"
+  },
+  "homepage": "https://github.com/muthuselvan86/webpack-practise-plugins#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.18",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^2.30.1",
+    "path": "^0.12.7",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
